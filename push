@@ -1,0 +1,8 @@
+# Script for pushing parsesopc software source to GitHub
+git add README.md
+git add '*.h' '*.cpp' 
+git add Makefile
+git add push
+git commit -m "See History.h for changes"
+git push origin master
+
